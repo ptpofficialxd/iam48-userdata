@@ -67,7 +67,7 @@ export default function Page() {
 
       // ดึง profile เพิ่มเติม
       const profilesData = await Promise.all(
-        (data || []).map(async (row) => {
+        (data as UserProfile[] || []).map(async (row: UserProfile) => {
           const res = await fetch(`/api/user/${row.id}`, {
             signal: controller.signal,
           });

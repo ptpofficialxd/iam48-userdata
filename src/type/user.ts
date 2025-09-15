@@ -6,7 +6,7 @@ export interface UserRow {
 
 // profile + balance (รวมจาก API ของ BNK48)
 export interface UserProfile {
-  id: string;
+  id: number;
   displayName: string;
   profileImageUrl: string;
   coverImageUrl: string;
