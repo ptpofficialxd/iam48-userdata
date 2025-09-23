@@ -81,7 +81,7 @@ export function ProfileCard({ profile }: { profile: UserProfile }) {
             <img
               src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUycnp0OTVydWtvb3Y5Z2FjYzVxN3FqM3hybWo3aXR2NTJkMXR0M2lzNCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/bHHUYJlqm1KQnVVdIi/source.gif"
               alt="crown badge"
-              className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 transform rotate-22 pointer-events-none"
+              className="absolute -top-6 left-12.5 -translate-x-1/2 w-12 h-12 transform rotate-22 pointer-events-none"
             />
           )}
 
