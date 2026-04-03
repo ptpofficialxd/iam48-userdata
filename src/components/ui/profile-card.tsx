@@ -88,7 +88,7 @@ export function ProfileCard({ profile }: { profile: UserProfile }) {
           {/* 🚀 Dev */}
           {isDev && (
             <img
-              src="https://img5.pic.in.th/file/secure-sv1/https___thepracticaldev.s3.amazonaws.com_i_90l6yftawx9kbiqyejlu-ezgif.com-crop.gif"
+              src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fthepracticaldev.s3.amazonaws.com%2Fi%2F90l6yftawx9kbiqyejlu.gif"
               alt="dev badge"
               className="absolute -top-3.5 -right-32 -translate-x-1/2 w-14 h-6 pointer-events-none"
             />
